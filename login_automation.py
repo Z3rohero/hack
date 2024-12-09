@@ -13,5 +13,5 @@ def has_valid_credentials(instance):
         retunr False
     
     if response.status_code != 200:
-        print(f"[!] Error en la respuesta del servidor .Respuesta : {response.status_code}")
+        print(f"[!] Error en las respuesta del servidor .Respuesta : {response.status_code}")
         return False
